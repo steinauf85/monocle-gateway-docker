@@ -1,4 +1,4 @@
-This fork of Monocle Gateway is the [32-bit (ARMv8)](https://monoclecam.com/monocle-gateway/install/linux-raspi) version which builds into a Docker image running [Debian:Buster-slim](https://hub.docker.com/layers/debian/library/debian/buster-slim/images/sha256-aee124e7c4ace4488a679d30ae9a02eb68e674f983e6066b547dd02b07bc572b?context=explore) as its base file system. It has only been tested on a Raspberry Pi 4 running the Raspbian Lite OS.
+This fork of Monocle Gateway is the [32-bit (ARMv7 and ARMv8)](https://monoclecam.com/monocle-gateway/install/linux-raspi) version which builds into a Docker image running [Debian:Buster-slim](https://hub.docker.com/layers/debian/library/debian/buster-slim/images/sha256-aee124e7c4ace4488a679d30ae9a02eb68e674f983e6066b547dd02b07bc572b?context=explore) as its base file system. It has been tested on a Raspberry Pi 4 running the Raspbian and Raspbian Lite OS.
 
 To build the image:
 - Save the Dockerfile to your system.
