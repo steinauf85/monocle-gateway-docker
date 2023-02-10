@@ -39,12 +39,6 @@ LABEL description="This image provides a Docker container for the Monocle Gatewa
 LABEL version=$BUILD_VERSION
 
 # ---------------------------------------
-# Create Monocle Gateway configuration 
-# directory
-# ---------------------------------------
-RUN mkdir -p /etc/monocle
-
-# ---------------------------------------
 # Install Monocle Gateway dependencies
 # ---------------------------------------
 RUN apt update && apt install -y \
